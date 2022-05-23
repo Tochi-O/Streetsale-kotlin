@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="SEARCH FOR SALE"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/searchedittxt"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:textSize="21sp"
+            android:hint="Enter Search field"
+
+            />
+
+
+        <Button
+            android:id="@+id/searchbtn"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="SEARCH"
+            android:textSize="21sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchitemspersale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        />
+
+
+
+</LinearLayout>

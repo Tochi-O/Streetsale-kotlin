@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/bidPricePlaced"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Item"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/acceptBidbtn"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:visibility="gone"
+        android:text="SELL"
+        android:textSize="11sp"
+        android:textStyle="italic" />
+
+
+
+</LinearLayout>

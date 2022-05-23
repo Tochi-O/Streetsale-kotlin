@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_add_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_add_sale.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_edit_sale.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_item.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_item_bids.xml" value="0.1390625" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_sale.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_search.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_sold.xml" value="0.1390625" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/activity_sold_items.xml" value="0.25364583333333335" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/bids_list_view.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/bidslistview.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/sale_item_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/sale_view.xml" value="0.1" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/saleitemview.xml" value="0.25416666666666665" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/saleview.xml" value="0.2" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/sold_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/homeschool-2021/PORTFOLIO2022/streetsale/app/src/main/res/layout/user_sold_item.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

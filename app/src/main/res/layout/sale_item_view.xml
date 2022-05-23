@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/itemposter"
+        android:layout_width="250dp"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/itemdescview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:text="Item"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewiteminfo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="info"
+            android:visibility="visible"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    <Button
+        android:id="@+id/admindelItembtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Delete"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+<!--    <Button-->
+<!--        android:id="@+id/placeBidbtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="3dp"-->
+<!--        android:text="Place Bid"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="italic" />-->
+    <Button
+        android:id="@+id/viewOtherBidsbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:text="View Bids"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+
+
+</LinearLayout>

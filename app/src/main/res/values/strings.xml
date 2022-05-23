@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">streetsale</string>
+    <string name="already_have_an_account_login">Already have an account</string>
+    <string name="signed">Signed In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_in">Don\'t have an account</string>
+    <string name="fullname">Enter Fullname</string>
+    <string name="start_a_new_sale">START A NEW SALE</string>
+    <string name="add_picture_for_item">Add picture for item</string>
+    <string name="add_item">ADD ITEM</string>
+    <string name="boughtitems">Bought Items</string>
+</resources>

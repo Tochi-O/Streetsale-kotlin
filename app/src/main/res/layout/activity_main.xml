@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/addsale"
+        android:layout_margin="8dp"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start_a_new_sale"
+        />
+        <Button
+            android:id="@+id/logoutbtn"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            />
+        <Button
+            android:id="@+id/searchbtn1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            />
+        <Button
+        android:id="@+id/boughtitemsbtn"
+        android:layout_margin="5dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boughtitems"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="ALL SALES"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/allsalesrecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</LinearLayout>

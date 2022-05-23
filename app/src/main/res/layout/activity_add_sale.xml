@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddSaleActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="ADD NEW SALE"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+
+        />
+
+    <EditText
+        android:id="@+id/addsalename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="Full name"
+        android:ems="10"
+        android:hint="TITE OF SALE"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/addsaledescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="SALE DESCRIPTION"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/addsaleaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="PICKUP ADDRESS"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/addsalecategory"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginRight="15dp"-->
+<!--        android:autofillHints="password"-->
+<!--        android:ems="10"-->
+<!--        android:hint="@string/confirm_password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColorHint="#757575"-->
+<!--        tools:ignore="TextContrastCheck" />-->
+
+    <Button
+        android:id="@+id/addsaleposter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Add poster for sale" />
+
+    <ImageView
+        android:id="@+id/addposterview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/addsalebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="ADD SALE" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvRedirectLogin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="@string/already_have_an_account_login"-->
+<!--        android:textColor="#18206F"-->
+<!--        android:textSize="16sp" />-->
+
+</LinearLayout>

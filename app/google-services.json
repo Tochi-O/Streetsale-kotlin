@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "176538281335",
+    "project_id": "streetsale-b0354",
+    "storage_bucket": "streetsale-b0354.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176538281335:android:543a758153fe1c5ea2ad72",
+        "android_client_info": {
+          "package_name": "com.example.streetsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176538281335-d42hj6ganf8u1a44bvumd30hbb07ibb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.streetsale",
+            "certificate_hash": "0d051606ed0e0dc71c7f04ec6fdc6b75b57f63b8"
+          }
+        },
+        {
+          "client_id": "176538281335-qgo343rideqd6nf0rs1rq41a71j4b9h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5mqOrAaXEabvEFXlYUWLt9XKia95IYcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176538281335-qgo343rideqd6nf0rs1rq41a71j4b9h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
